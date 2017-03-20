@@ -6,9 +6,11 @@ margin: 0;
 font-family: 'Lato', sans-serif;
 }
 
+/*
 * {
   outline: 1px dotted yellow;
 }
+*/
 
 .header {
   background-color: #2D2F3B;
@@ -17,7 +19,7 @@ font-family: 'Lato', sans-serif;
 }
 
 .nav {
-width: 960px;
+max-width: 960px;
 margin-left: auto;
 margin-right: auto;
 color: white;
@@ -45,4 +47,30 @@ margin-top: 35px;
 
 .salmon {
 color: #F16C65
+}
+
+.banner {
+  background-color: #F16C65;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.services {
+  padding: 20px 30px;
+  color: #666d89
+}
+
+@media screen and (max-width: 610px) {
+  .logo {
+    float: none;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+  }
+
+  .links {
+    float: none;
+    margin-top: 10px;
+    text-align: center;
+  }
 }
