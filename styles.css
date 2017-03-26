@@ -8,7 +8,7 @@ font-family: 'Lato', sans-serif;
 
 /*
 * {
-  outline: 1px dotted yellow;
+  outline: 1px dotted red;
 }
 */
 
@@ -55,9 +55,41 @@ color: #F16C65
   padding: 40px 0;
 }
 
+.servicescontainer {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #666d89;
+
+}
+
+.column {
+  max-width: 320px;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  color: #666d89;
+
+}
+
+
 .services {
-  padding: 20px 30px;
-  color: #666d89
+  float:left;
+  color: #666d89;
+}
+
+
+.servicesone {
+float: left;
+padding-left: 20px;
+max-width: 220px;
+font-size: 0.85rem;
+color: #666d89;
+}
+
+.icon {
+  float:left;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 610px) {
