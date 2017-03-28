@@ -14,8 +14,8 @@ font-family: 'Lato', sans-serif;
 
 .header {
   background-color: #2D2F3B;
-  height: 90px;
-  border-bottom: 6px solid #323746;
+  height: 80px;
+  border-bottom: 3px solid #323746;
 }
 
 .nav {
@@ -28,13 +28,14 @@ color: white;
 
 .logo {
 float: left;
-font-size: 1.4rem;
-margin-top: 35px;
+font-size: 2rem;
+margin-top: 25px;
 }
 
 .links {
-  float: right;
+  float: left;
   margin-top: 40px;
+  margin-left: 100px;
   font-size: 0.75rem;
   color: #4B4E61
 }
