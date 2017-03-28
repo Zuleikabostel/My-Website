@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker');
 
 body {
 background-color: #f2f2f2;
+background-image: url("images/banner.png");
+background-repeat:no-repeat;
+background-position: right top;
+background-attachment: fixed;
+background-size: 50%;
 margin: 0;
-font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 
 /*
@@ -13,9 +18,9 @@ font-family: 'Lato', sans-serif;
 */
 
 .header {
-  background-color: #2D2F3B;
+  background-color: rgba(255, 255, 255, 0.5);
   height: 80px;
-  border-bottom: 3px solid #323746;
+  border-bottom: 3px solid #2b2b2b;
 }
 
 .nav {
@@ -28,31 +33,38 @@ color: white;
 
 .logo {
 float: left;
-font-size: 2rem;
-margin-top: 25px;
+font-size: 3rem;
+margin-top: 10px;
+color: #2b2b2b;
+font-family: 'Permanent Marker', cursive;
+}
+
+.logo a {
+ color: black;
+ text-decoration: none;
 }
 
 .links {
   float: left;
   margin-top: 40px;
   margin-left: 100px;
-  font-size: 0.75rem;
-  color: #4B4E61
+  font-size: 1.2rem;
+  color: #F16C65;
 }
 
 .links a {
-  color: white;
+  color: black;
   text-decoration: none;
   padding: 0 10px;
 }
 
-.salmon {
-color: #F16C65
+a:hover {
+  color: #F16C65;
 }
 
 .banner {
   background-color: #F16C65;
-  text-align: center;
+  text-align: right;
   padding: 40px 0;
 }
 
@@ -60,37 +72,13 @@ color: #F16C65
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
-  color: #666d89;
-
+  background-color: #e15d68;
+  margin-top: 30%;
 }
-
-.column {
-  max-width: 320px;
-  float: left;
-  margin-left: auto;
-  margin-right: auto;
-  color: #666d89;
-
-}
-
 
 .services {
   float:left;
   color: #666d89;
-}
-
-
-.servicesone {
-float: left;
-padding-left: 20px;
-max-width: 220px;
-font-size: 0.85rem;
-color: #666d89;
-}
-
-.icon {
-  float:left;
-  margin-top: 20px;
 }
 
 @media screen and (max-width: 610px) {
