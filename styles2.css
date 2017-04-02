@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker');
+
+body {
+background-color: #f2f2f2;
+margin: 0;
+font-family: 'Open Sans', sans-serif;
+}
+
+/*
+* {
+  outline: 1px dotted red;
+}
+*/
+
+.header {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 80px;
+  border-bottom: 3px solid #2b2b2b;
+}
+
+.nav {
+max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+color: white;
+}
+
+
+.logo {
+float: left;
+font-size: 3rem;
+margin-top: 10px;
+color: #2b2b2b;
+font-family: 'Permanent Marker', cursive;
+}
+
+.logo a {
+ color: black;
+ text-decoration: none;
+}
+
+.links {
+  float: left;
+  margin-top: 30px;
+  margin-left: 100px;
+  font-size: 1.2rem;
+  color: #F16C65;
+}
+
+.links a {
+  color: black;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+a:hover {
+  color: #F16C65;
+}
+
+.banner {
+  background-color: #F16C65;
+  text-align: right;
+  padding: 40px 0;
+}
+
+.profilecontainer {
+  padding: 20px 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 30%;
+}
+
+.profileinfo {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+
+@media screen and (max-width: 610px) {
+  .logo {
+    float: none;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+  }
+
+  .links {
+    float: none;
+    margin-top: 10px;
+    text-align: center;
+  }
+}
