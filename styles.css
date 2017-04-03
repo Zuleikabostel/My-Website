@@ -35,13 +35,14 @@ color: white;
 float: left;
 font-size: 3rem;
 margin-top: 10px;
+margin-left: 10px;
 color: #2b2b2b;
 font-family: 'Permanent Marker', cursive;
 }
 
 .logo a {
- color: black;
  text-decoration: none;
+ color: #2b2b2b;
 }
 
 .links {
@@ -81,6 +82,15 @@ a:hover {
   color: white;
 }
 
+.profileimage {
+  float: left;
+  padding-right: 30px;
+}
+
+.work {
+  padding: 20px 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
 @media screen and (max-width: 610px) {
   .logo {
     float: none;
